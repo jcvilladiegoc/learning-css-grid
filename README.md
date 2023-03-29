@@ -22,3 +22,15 @@ Tablet view
 Mobile view
 
 ![image](https://user-images.githubusercontent.com/30032286/228400571-aeff8770-ac90-4315-8832-9293cf34722a.png)
+
+# Credits
+
+The truth is that I did not learn this by myself, I want to thank the udemy platform and the instructor for building my professional growth
+
+Course: Curso de CSS3, Flexbox y CSS Grid Layout | Básico y rápido
+
+Platform: Udemy
+
+Teacher: Víctor Robles
+
+Link: [https://www.udemy.com/course/curso-de-css3-flexbox-y-css-grid-layout-basico/learn/lecture/27776820#overview](https://www.udemy.com/course/curso-de-css3-flexbox-y-css-grid-layout-basico/learn/lecture/27776820#overview)
