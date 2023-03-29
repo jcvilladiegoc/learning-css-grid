@@ -1,0 +1,161 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    padding: 0px;
+}
+
+.container {
+    display: grid;
+    max-width: 1200px;
+    margin: auto;
+    grid-template-areas:
+        'header header'
+        'nav nav'
+        'section aside'
+        'footer footer';
+}
+
+header {
+    grid-area: header;
+    background-color: red;
+    text-align: center;
+    min-height: 100px;
+    align-content: center;
+    display: grid;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+nav {
+    grid-area: nav;
+    background-color: lightcoral;
+    min-height: 60px;
+    line-height: 60px;
+    order: 2;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 0px 8px;
+}
+
+section {
+    grid-area: section;
+    background-color: lightgreen;
+    min-height: 500px;
+    padding: 20px;
+}
+
+article {
+    padding-bottom: 1rem;
+}
+
+article h1 {
+    margin-bottom: 0.5rem;
+}
+
+aside {
+    grid-area: aside;
+    background-color: lightsalmon;
+    min-height: 500px;
+    padding: 20px;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    min-height: 60px;
+    align-content: center;
+    display: grid;
+}
+
+div#menu {
+    display: none;
+    grid-area: menu;
+    background-color: lightcoral;
+    height: 60px;
+    line-height: 60px;
+}
+
+.show {
+    display: block;
+}
+
+#menu-button {
+    background-color: transparent;
+    border-width: 0px;
+    padding: 4px 6px;
+}
+
+#menu-button img {
+    height: 24px;
+}
+
+@media screen and (max-width: 540px) {
+
+    .container {
+        grid-template-areas:
+            'header header'
+            'menu menu'
+            'nav nav'
+            'aside aside'
+            'section section'
+            'footer footer';
+    }
+
+    nav {
+        display: none;
+    }
+
+    nav ul {
+        grid-template-columns: auto;
+        justify-content: normal;
+    }
+
+    div#menu {
+        display: grid;
+        justify-content: right;
+    }
+
+    aside {
+        height: 40px;
+        line-height: 40px;
+        min-height: auto;
+    }
+
+}
+
+@media screen and (min-width: 540px) and (max-width: 680px) {
+
+    .container {
+        grid-template-areas:
+            'header header'
+            'nav nav'
+            'aside aside'
+            'section section'
+            'footer footer';
+    }
+
+    aside {
+        height: 40px;
+        line-height: 40px;
+        min-height: auto;
+    }
+
+}
+
