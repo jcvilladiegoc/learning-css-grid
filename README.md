@@ -33,4 +33,4 @@ Platform: Udemy
 
 Teacher: Víctor Robles
 
-Link: [https://www.udemy.com/course/curso-de-css3-flexbox-y-css-grid-layout-basico/learn/lecture/27776820#overview](https://www.udemy.com/course/curso-de-css3-flexbox-y-css-grid-layout-basico/learn/lecture/27776820#overview)
+Link: https://www.udemy.com/course/curso-de-css3-flexbox-y-css-grid-layout-basico/
